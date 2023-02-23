@@ -9,10 +9,16 @@ namespace Primer_Formulario
         {
             InitializeComponent();
         }
-
+        double operacion = 0;
         private void calcularbutton1_Click(object sender, EventArgs e)
         {
+            double deposito = Convert.ToDouble(montotextBox1.Text);
+            double meses = Convert.ToDouble(mesestextBox1.Text);
 
+            Calcular(deposito, meses);
+
+
+            MessageBox.Show(Convert.ToString(Calcular(deposito, meses)));
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -20,10 +26,15 @@ namespace Primer_Formulario
 
         }
 
-        public Double calcular(double monto, double interes, Double tiempo)
+        private Double Calcular(double monto, Double tiempo)
         {
 
-            return monto * interes * tiempo;
+            return monto * 0.015 * tiempo;
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
