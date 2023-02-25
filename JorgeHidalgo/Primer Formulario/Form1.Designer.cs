@@ -1,4 +1,6 @@
-﻿namespace Primer_Formulario
+﻿using System;
+
+namespace Primer_Formulario
 {
     partial class Form1
     {
@@ -116,6 +118,11 @@
             this.ResumeLayout(false);
             this.PerformLayout();
 
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2C4CFD97-39B4-42C2-BC3C-B591463F0FAD}</ProjectGuid>
+    <ProjectGuid>{3FFD3827-1785-4F30-AFB5-AEC21A8E2599}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Tercer_Formulario</RootNamespace>
-    <AssemblyName>Tercer Formulario</AssemblyName>
+    <RootNamespace>Primer_Formulario_1._2</RootNamespace>
+    <AssemblyName>Primer Formulario 1.2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
